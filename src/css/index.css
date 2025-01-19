@@ -1,0 +1,30 @@
+.main-bg {
+  background-image: url("../assets/img/index-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.main-bg.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.content-wrapper {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .main-bg {
+    background-attachment: scroll;
+  }
+
+  .content-wrapper {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: "roboto", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  font-family: "playfair-display";
+}
+
+nav ul {
+  font-family: "playfair-display";
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+#timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (max-width: 850px) {
+  footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 1rem 0;
+  }
+
+  footer .container {
+    padding: 0 10px;
+    word-wrap: break-word;
+  }
+
+  footer span {
+    display: block;
+    margin: 5px 0;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  nav.navbar {
+    padding: 0.5rem;
+  }
+
+  nav.navbar .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav.navbar .nav-link {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+  }
+
+  nav.navbar .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

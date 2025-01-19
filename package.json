@@ -1,0 +1,27 @@
+{
+  "name": "andreitarkovsky",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel --open",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "parcel-bundler": "^1.12.5",
+    "posthtml": "^0.16.6",
+    "posthtml-include": "^2.0.1"
+  },
+  "dependencies": {
+    "@fontsource/playfair-display": "^5.1.1",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "bootstrap": "^5.3.3",
+    "quiz.js": "^0.6.5",
+    "vis-timeline": "^7.7.3"
+  }
+}
